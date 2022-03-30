@@ -12,6 +12,7 @@ const skillsCtrl = require('../controllers/skills');
 
 
  router.post('/', skillsCtrl.create);
+ router.delete('/:id', skillsCtrl.delete);
 
 module.exports = router;
 
